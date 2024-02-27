@@ -1,0 +1,28 @@
+header {
+    text-align: center;
+}
+header>img {
+    width: 300px;
+}
+
+nav img {
+    height: 25px;
+}
+
+span {
+    background-color: red;
+    color: white;
+}
+
+p {
+    /* border: 10px dashed red; */
+    /*border-width: 10px 5px;
+    border-style: solid dashed;
+    border-color: red blue green black;*/
+}
+
+
+/* #logotipo substitui header>img */
+
+
+
