@@ -1,0 +1,51 @@
+:root {
+    --vermelho: #e41b15;
+    --branco: #fff;
+    --preto: #000;
+    --cinzento: #aaa
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.btn {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border: 1px solid var(--branco);
+}
+
+.btn:hover {
+    background-color: var(--branco);
+    color: var(--vermelho);
+}
+
+header {
+    background-color: #E51B15;
+}
+
+header img {
+    width: 200px;
+}
+
+nav input {
+    background-color: var(--branco) !important;
+    color: var(--preto) !important;
+    width: 100% !important;
+}
+
+nav input::placeholder {
+    color: var(--cinzento) !important;
+}
+
+footer {
+    background-color: var(--vermelho);
+    color: var(--branco);
+}
+
+footer a {
+    color: var(--branco);
+    border: 1px solid var(--branco);
+    padding: 5px;
+    border-radius: 100%;
+}
