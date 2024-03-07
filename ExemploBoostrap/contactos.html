@@ -68,6 +68,91 @@
     </header>
 
     <main class="mb-2 p-3 shadow rounded">
+
+      <!-- div.container>div.row>div.col-12.col-md-6*2 -->
+
+      <div class="container-fluid">
+
+        <!-- MAPA -->
+
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <iframe id="gmaps" class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1501.4011698367856!2d-8.660529032349574!3d41.182478210015496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2465f65ac98aef%3A0x7d83a2eea4857777!2sWorten!5e0!3m2!1spt-PT!2spt!4v1709828835560!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+          <!-- DADOS CONTACTO -->
+
+          <div class="col-12 col-md-6 text-center my-auto">
+            <div class="row">
+              <div class="col">
+              <i class="bi bi-geo-alt"></i>
+              </div>
+            </div>
+
+            <!-- DADOS LOCALIZAÇÃO -->
+
+            <div class="row">
+              <div class="col">
+                <span>Rua Sara Afonso - Norte Shopping Loja 112</span>
+                <span>4460-841</span>
+              </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+              <div class="col">
+                <i class="bi bi-clock"></i>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <span>2ª a domingo: 10:00 - 23:00</span>
+              </div>
+            </div>
+            DADOS CONTACTO</div>
+        </div>
+
+        <!-- div.row>div.col -->
+
+        <div class="row text-center mt-3">
+          <div class="col-12 col-md-6">
+            <!-- Button trigger modal -->
+<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Fale connosco !
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Contacto</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Insira o seu email">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+      </div>
+      
+    </div>
+
     </main>
 
     <footer class="container-fluid text-center sticky-bottom"> <!--Container-fluid faz com quem o elemento fique sempre coma dimensão da página independentemente do seu tamanho-->

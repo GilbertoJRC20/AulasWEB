@@ -2,7 +2,9 @@
     --vermelho: #e41b15;
     --branco: #fff;
     --preto: #000;
-    --cinzento: #aaa
+    --cinzento: #aaa;
+    --amarelo: #ebe729;
+    --verde: #116906d3;
 }
 
 body {
@@ -18,6 +20,19 @@ body {
 .btn:hover {
     background-color: var(--branco);
     color: var(--vermelho);
+    border: 1px solid var(--vermelho);
+}
+
+.badge {
+    background-color: var(--vermelho);
+}
+
+.badge-verde {
+    background-color: var(--verde);
+}
+
+.badge-amarelo {
+    background-color: var(--amarelo);
 }
 
 header {
@@ -36,6 +51,18 @@ nav input {
 
 nav input::placeholder {
     color: var(--cinzento) !important;
+}
+
+main p {
+ text-align: justify;
+}
+
+.card-title {
+    height: 75px;
+}
+
+#gmaps {
+    height: 400px;
 }
 
 footer {
