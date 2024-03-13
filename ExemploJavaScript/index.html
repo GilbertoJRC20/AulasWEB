@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <!--<button onclick="alert('Clicado')">CLIQUE AQUI!</button>-->
+
+    <button onclick="mostrarLista()">MOSTRAR LISTA</button>
+
+    <!--<button onclick="corFundoAmarelo()">AMARELO</button>
+    <button onclick="corFundoVerde()">VERDE</button>
+    <button onclick="corFundoLaranja()">LARANJA</button>-->
+    
+    <button onclick="corFundo('yellow')">AMARELO</button>
+    <button onclick="corFundo('green')">VERDE</button>
+    <button onclick="corFundo('orange')">LARANJA</button>
+
+    <hr>
+
+    <input type="text" name="input-cor" id="input-cor">
+    <button onclick="mudarCor()">MUDAR COR</button>
+
+    <hr>
+
+    <input type="radio" name="cor-fundo" id="cor-fundo-amarelo" value="yellow">Amarelo <br>
+    <input type="radio" name="cor-fundo" id="cor-fundo-verde" value="green">Verde <br>
+    <button onclick="mudarCorRadio()">MUDAR COR RADIO</button>
+
+    <hr>
+
+    <select name="cor-select" id="cor-select">
+        <option value="" disabled selected>Selecione uma opção</option>
+        <option value="red">Vermelho</option>
+        <option value="blue">Azul</option>
+    </select>
+    <button onclick="mudarCorSelect()">MUDAR COR SELECT</button><br>
+    <small id="erro-select">Selecione uma cor antes de clicar</small>
+
+    <script>
+        //alert('Olá!')
+        //console.log('Olá')
+        //document.write('Olá')
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>

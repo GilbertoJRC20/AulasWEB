@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <!--mudar as cores/ butões-->
+        <button onclick="cor_fundo('red')">Vermelho</button>
+        <button onclick="cor_fundo('blue')">Azul</button>
+        <button onclick="cor_fundo('green')">Verde</button>
+    </div>
+    <div>
+        <!-- exercicio 2- display -->
+        <p id="p-ex2a">texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum consequatur officiis quae quisquam saepe, aliquam temporibus expedita nemo? Similique officiis eos voluptate molestias esse illo iste alias sint nesciunt ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, sequi ut. Quidem alias sunt fugiat ratione magni, officiis sequi, ipsam amet commodi veniam illo delectus. Labore cupiditate vel explicabo cum.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ut asperiores aliquam nesciunt eos eligendi aliquid commodi sed, quod perspiciatis optio ipsam accusantium temporibus qui corrupti distinctio odio fugit molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde asperiores dignissimos, quisquam, ratione nesciunt nemo voluptatem necessitatibus optio esse accusantium cumque consectetur repellat maiores ut corporis itaque magni impedit? Necessitatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, excepturi cupiditate architecto assumenda maxime corrupti obcaecati praesentium veniam cum animi beatae maiores fugit dolor quos distinctio odit, eos accusantium dignissimos."</p>
+        <button id="b-ex2a" onclick="showText()">Mostrar</button> <!--lorem-->
+    </div>
+    <div>
+        <!-- exercicio 2- conteúdo -->
+        <hr><p id="p-ex2b"></p>
+        <button id="b-ex2b" onclick="fillText()">Preencher</button> <!--lorem-->
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum consequatur officiis quae quisquam saepe, aliquam temporibus expedita nemo? <span id="frase">Similique officiis eos voluptate molestias esse illo iste alias sint nesciunt ad.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, sequi ut. Quidem alias sunt fugiat ratione magni, officiis sequi, ipsam amet commodi veniam illo delectus. Labore cupiditate vel explicabo cum.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ut asperiores aliquam nesciunt eos eligendi aliquid commodi sed, quod perspiciatis optio ipsam accusantium temporibus qui corrupti distinctio odio fugit molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde asperiores dignissimos, quisquam, ratione nesciunt nemo voluptatem necessitatibus optio esse accusantium cumque consectetur repellat maiores ut corporis itaque magni impedit? Necessitatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, excepturi cupiditate architecto assumenda maxime corrupti obcaecati praesentium veniam cum animi beatae maiores fugit dolor quos distinctio odit, eos accusantium dignissimos.</span></p>
+        <button id="b-ex3" onclick="visibilidadeFrase()">Esconder frase</button>
+    </div>
+ 
+    <div>
+        <p id="p-ex4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab nemo possimus reprehenderit molestias quas atque, accusantium harum tenetur voluptates ea, iusto iste omnis quae corrupti temporibus sequi ad accusamus Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic unde magni tempore rerum voluptatum modi, ab error quidem tenetur eos exercitationem adipisci distinctio! Odit quaerat minima hic aliquid, temporibus autem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit error similique libero necessitatibus, facere vitae saepe porro veritatis nisi nulla sint quibusdam! Quisquam nihil ut quas earum eligendi mollitia obcaecati.</p>
+        <button onclick="aumentar()">Aumentar</button>
+        <button onclick="diminuir()">Diminuir</button>
+ 
+        <br>
+ 
+        <button onclick="mudarTamanho('+')">Incrementar</button>
+        <button onclick="mudarTamanho('-')">Decrementar</button>
+    </div>
+   
+    <script src="main.js"></script>
+</body>
+</html>
