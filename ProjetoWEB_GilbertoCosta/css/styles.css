@@ -1,0 +1,22 @@
+body {
+    font-family: "Wild Words";
+}
+
+h1 {
+    color: blue;
+}
+
+header {
+    background-color: orangered;
+}
+
+.btn {
+    background-color: white;
+    color: orange;
+}
+
+.btn:hover {
+    background-color: orangered;
+    color: blue;
+}
+
