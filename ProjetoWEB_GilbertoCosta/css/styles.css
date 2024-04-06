@@ -11,12 +11,12 @@ header {
 }
 
 .btn {
-    background-color: white;
-    color: orange;
+    background-color: orange;
+    color: blue;
 }
 
 .btn:hover {
-    background-color: orangered;
-    color: blue;
+    background-color: green;
+    color: orange;
 }
 
