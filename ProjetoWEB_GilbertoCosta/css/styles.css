@@ -40,7 +40,6 @@ form {
 
 
 .btn {
-
     font-size: 20px;
     font-family: "Teko", sans-serif;
     font-style: italic;
@@ -62,19 +61,70 @@ form {
 
 /*====================================================================================
 
+Main
+
+====================================================================================*/
+
+.carousel-item img {
+    width: 50%;
+    height: 500px;
+    object-fit: contain;
+}
+
+
+
+.carousel-caption-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.carousel-caption-text h5 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.carousel-caption-text p {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 2;
+}
+
+
+/*====================================================================================
+
 Footer
 
 ====================================================================================*/
 
-
 footer {
     background-color: #2b3035;
     color: white;
+    width: fit-content;
+    padding: 30px
 }
 
-footer a: hover {
-    color: white;
-    border: 1px solid white;
-    padding: 5px;
-    border-radius: 100%;
+.footer-link {
+    text-decoration: none;
+}
+
+.footer-img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-left: 50px;
+}
+
+
+.footer-content {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
